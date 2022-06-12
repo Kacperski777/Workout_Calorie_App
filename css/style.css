@@ -1,0 +1,42 @@
+
+/* Div */
+
+.navigation {
+  font-size: 20px;
+  background-color: #33995f;
+  font-family: 'Gill Sans', ;
+}
+
+
+/* Navigation */
+
+
+
+.button {
+  color: black;
+}
+
+.button:hover {
+  color: black;
+  box-shadow: 0px 5px #330033;
+  text-decoration: none;
+}
+
+.home2 {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.home2:hover {
+  opacity: 1.0;
+}
+
+.navigation {
+  padding: 1% 2%;
+}
+
+
+.button-navigation{
+  margin-right: 2.5rem;
+  margin-top: 0.3rem;
+}

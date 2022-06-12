@@ -1,0 +1,137 @@
+/* body  */
+body {
+  background-color: #33995f;
+}
+
+
+
+/* Fix of Col-lg-6 */
+.col-lg-6 {
+  padding-left: 0%;
+}
+
+/* FORM */
+.signup-title {
+  text-align: center;
+}
+
+.form {
+  color: black;
+  background-color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 5px 10px black;
+}
+
+.form2 {
+  padding: 4rem;
+}
+
+.login-form {
+  margin-top: 12%;
+}
+
+.link {
+  margin-top: 3rem;
+}
+
+::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+
+.container {
+  padding: 2% 0%;
+}
+
+.input {
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-top: 5px;
+  transition: 0.3s;
+  opacity: 0.8;
+  border-color: gray;
+}
+
+.input:hover {
+  opacity: 1.0;
+}
+
+.submit {
+  background-color: #33995f;
+  color: black;
+  width: 17rem;
+  opacity: 0.6;
+}
+
+.submit:hover {
+  opacity: 1;
+}
+
+/* Navigation */
+.home {
+  background-color: #33995f;
+  color: black;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.home2 {
+  opacity: 0.8;
+  transition: 0.3s;
+  color: black;
+}
+
+.home2:hover {
+  box-shadow: 0px 4px #330033;
+  opacity: 1.0;
+  color: black;
+}
+
+/* PHP Error and Success Alert */
+.success {
+  background-color: green;
+  text-align: center;
+  margin-left: 35.5%;
+  width: 30%;
+  font-size: 35px;
+  color: white;
+}
+
+.error {
+  text-align: center;
+  margin-left: 35.5%;
+  width: 30%;
+  font-size: 35px;
+  color: white;
+  background-color: red;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+
+  .container {
+    padding: 3% 10%;
+  }
+
+  .link{
+    font-size: 20px;
+  }
+
+  .input {
+    padding-top: 1px;
+    margin-right: 30px;
+    width: 100%;
+  }
+
+  .error {
+   padding: 20px;
+  }
+
+  input::placeholder{
+    font-size: 20px;
+  }
+
+
+}
